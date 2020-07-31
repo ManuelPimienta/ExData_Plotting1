@@ -24,5 +24,5 @@ myData$DateTime <- as.POSIXct(myData$DateTime, format="%d/%m/%Y %H:%M:%S", tz=Sy
 # Grafico Global Active Power - Global Active Power Chart
 with(myData, hist(myData$Global_active_power,  main = "Global Active Power", col = "red", xlab = "Global Active Power (Kilowatts)"))
 
-dev.copy(png, file = "~/ExData_Plotting1/My_images/plot1.png", width = 480, height = 480) ## Copy my plot to a PNG file
+dev.copy(png, file = "~/ExData_Plotting1/plot1.png", width = 480, height = 480) ## Copy my plot to a PNG file
 dev.off()

@@ -30,5 +30,5 @@ with(myData,{
   # Dibujo del leyenda - Drawing of the legend
   legend("topright", lty=1, col = c("black", "red", "blue"), legend = c("Sub Metering 1", "Sub Metering 2", "Sub Metering 3"))
 })
-dev.copy(png, file = "~/ExData_Plotting1/My_images/plot3.png", width = 480, height = 480) ## Copy my plot to a PNG file
+dev.copy(png, file = "~/ExData_Plotting1/plot3.png", width = 480, height = 480) ## Copy my plot to a PNG file
 dev.off()

@@ -23,5 +23,5 @@ myData$DateTime <- as.POSIXct(myData$DateTime, format="%d/%m/%Y %H:%M:%S", tz=Sy
 # ------------------ Dibujo de los datos
 # Grafico Global_active_power en el tiempo - Global active power graph over time
 plot(myData$Global_active_power ~ myData$DateTime, type = "l", main = "Global active power", xlab = "", ylab = "Global Active Power (Kilowatts)")
-dev.copy(png, file = "~/ExData_Plotting1/My_images/plot2.png", width = 480, height = 480) ## Copy my plot to a PNG file
+dev.copy(png, file = "~/ExData_Plotting1/plot2.png", width = 480, height = 480) ## Copy my plot to a PNG file
 dev.off()

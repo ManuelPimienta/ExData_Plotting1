@@ -35,5 +35,5 @@ with(myData, {
   plot(myData$Global_reactive_power ~ myData$DateTime, type = "l", xlab = "", ylab = "Global Reactive Power")
 })
 
-dev.copy(png, file = "~/ExData_Plotting1/My_images/plot4.png", width = 480, height = 480) ## Copy my plot to a PNG file
+dev.copy(png, file = "~/ExData_Plotting1/plot4.png", width = 480, height = 480) ## Copy my plot to a PNG file
 dev.off()
